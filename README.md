@@ -1,18 +1,18 @@
 <table>
   <tr>
-    <td width="200" valign="middle">
+    <td width="220" align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png" >
+        <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
         <source media="(prefers-color-scheme: light)" srcset="assets/logo-light.png">
         <img alt="unict logo" src="assets/logo-light.png" width="200">
       </picture>
     </td>
-    <td valign="middle">
+    <td>
       <h1>Technologies for Advanced Programming</h1>
 
-![Course](https://img.shields.io/badge/Course-TAP%202025%2F26-blue)
+![Course](https://img.shields.io/badge/Course-TAP%202025%2F26-green)
 ![University](https://img.shields.io/badge/University-UNICT-orange)
-![Language](https://img.shields.io/badge/Language-English%20%26%20Italian-green)
+![GitHub repo size](https://img.shields.io/github/repo-size/tapunict/tap2026)
     </td>
   </tr>
 </table>
