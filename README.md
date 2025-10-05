@@ -28,7 +28,7 @@ All the Jupyter notebooks used in the lectures are stored in the `/doc` folder a
 To view them interactively, you’ll need to install [Quarto](https://quarto.org/docs/get-started/) and run:
 
 ```bash
-quarto preview doc/nome_file.ipynb
+quarto preview doc/filename.ipynb
 ```
 This will produce an output similar to:
 ```text
@@ -37,12 +37,12 @@ Listening on http://127.0.0.1:7887/
 ```
 Your default browser will automatically open an interactive preview of the notebook.
 
-You can also specify a custom port using the `--port <numero_porta>` option.
+You can also specify a custom port using the `--port <port_number>` option.
 
 ## Exporting Slides
 Alternatively, you can render each notebook as an HTML slide deck by running:
 ```bash
-quarto render doc/nome_file.ipynb
+quarto render doc/filename.ipynb
 ```
 The generated HTML files can then be opened in any modern web browser.
 
