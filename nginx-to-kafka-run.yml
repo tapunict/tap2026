@@ -1,6 +1,6 @@
 services:
     kafkaServer:
-        image: apache/kafka:latest
+        image: apache/kafka:4.1.0
         hostname: kafkaServer
         container_name: kafkaServer
         ports:
@@ -21,7 +21,7 @@ services:
             KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
             KAFKA_LOG_DIRS: '/tmp/kraft-combined-logs'  
     topics:
-        image: apache/kafka:latest
+        image: apache/kafka:4.1.0
         command: > 
             bash -c "
             /opt/kafka/bin/kafka-topics.sh --create --topic fluentd_access_log --bootstrap-server kafkaServer:9092 
