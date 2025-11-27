@@ -53,7 +53,7 @@ print(dataset.show(10))
 df = spark \
     .readStream \
     .format("rate") \
-    .option("rowsPerSecond", 100) \
+    .option("rowsPerSecond", 100000) \
     .load()
 
 # Rate source produces these data

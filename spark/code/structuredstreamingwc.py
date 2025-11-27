@@ -27,15 +27,15 @@ words = lines.select(
        split(lines.value, " ")
    ).alias("word")
 )
-
+print(words)
 # Generate running word count
 wordCounts = words.groupBy("word").count()
-
+print(wordCounts)
  # Start running the query that prints the running counts to the console
 query = wordCounts \
     .writeStream \
     .outputMode("complete") \
     .format("console") \
     .start()
-
+query 
 query.awaitTermination()
