@@ -17,6 +17,27 @@
   </tr>
 </table>
 
+
+## Timetable
+```mermaid
+gantt
+    dateFormat  HH:mm
+    axisFormat %H:%M
+    section Monday
+    - No lessons -    :done, 08:00, 0m
+
+    section Tuesday
+    - No lessons -    :done, 08:00, 0m
+
+    section Wednesday
+    - No lessons -    :done, 08:00, 0m
+    section Thursday
+    Aula 22 (Chiarenza)  :active,  14:00, 3h
+
+    section Friday
+    Aula 24              :active,  08:00, 3h
+```
+
 ## Getting started
 To download the course material, you can either **clone the repository** or **download the ZIP** file from the course page.
 ```bash
